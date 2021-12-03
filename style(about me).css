@@ -1,0 +1,44 @@
+/* img{
+    position: fixed;
+} */
+
+body{
+    background-color: silver;
+}
+
+.heading{
+    font-size: 40px;
+    color: deeppink;
+}
+
+.about{
+    padding-left: 600px;
+    font-size: 28px;
+    color: darkcyan;
+}
+
+.personal{
+    padding-left: 600px;
+    font-size: 28px;
+    color: #000;
+}
+
+.sign{
+    padding-left: 850px;
+    position: fixed;
+}
+
+.footer{
+    padding-top: 200px;
+    padding-left: 500px;
+    position: fixed;
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin: 5px;
+    font-family: sans-serif;
+    justify-content:space-between 200px;
+}
+
+.photo{
+    position: fixed;
+}

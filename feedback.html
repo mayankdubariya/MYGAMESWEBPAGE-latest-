@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>feedback</title>
+    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+    <style>
+        body {
+            background-color: blanchedalmond;
+        }
+
+        .item:hover {
+            opacity: 1;
+
+            /* transform: scale(1.2); */
+        }
+
+        .item:hover {
+            opacity: 0.8;
+        }
+
+
+        .item {
+
+            border-radius: 20px;
+            background-color: #ffffff;
+            /* background-color: #008080; */
+            padding: 30px;
+            margin: 25px;
+            width: 310px;
+            font-family: fantasy;
+            position: relative;
+            /* transform: scale(0.5); */
+        }
+
+
+        .grid {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 40px;
+            font-family: sans-serif;
+            justify-content: space-evenly;
+
+        }
+
+        .grid img {
+            /* border: 2px solid #000000; */
+            border-radius: 30px;
+        }
+
+        input {
+            width: 250px;
+            height: 60px;
+            font-size: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <center>
+        <h1><u>Give Your FeedBack Here!!</u></h1>
+
+        <h2>Select Emoji/Type to Give Your FeedBack</h2>
+
+        <form>
+
+            <div class="grid">
+
+                <div class="item">
+                    <a href="feedback(2ndpage).html" target="_blank"><img src="images/angry.png" width="300px"
+                            height="200px"></a>
+                </div>
+
+                <div class="item">
+                    <a href="feedback(2ndpage).html" target="_blank"><img src="images/okok.png"></a>
+                </div>
+
+                <div class="item">
+                    <a href="feedback(2ndpage).html" target="_blank"><img src="images/happy.png"></a>
+                </div>
+
+            </div>
+
+            <h2>
+
+                FeedBack Box (Optional) :<input type="text" placeholder="type your problem here...." size="30" required>
+
+            </h2>
+            <input type="submit">
+            
+    <a href="feedback(submit).html" target="_blank"><img src="images/submit.png"></a>
+        </form>
+
+
+    </center>
+</body>
+
+</html>
